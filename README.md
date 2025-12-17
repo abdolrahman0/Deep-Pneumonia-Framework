@@ -103,7 +103,7 @@ For a deep-dive into per-class performance, error logs, and comparative visualiz
 
 ## 🚀 Deployment & Demo
 Experience the real-time inference engine on **Hugging Face Spaces**:
-🔗 [**Live Diagnostic Demo**]([INSERT_YOUR_HUGGING_FACE_LINK_HERE](https://huggingface.co/spaces/abdolrahman/Deep-Pneumonia-Framework))
+🔗 [**Live Diagnostic Demo**]([https://huggingface.co/spaces/abdolrahman/Deep-Pneumonia-Framework]))
 
 ---
 
