@@ -5,6 +5,11 @@
 ![Medical AI](https://img.shields.io/badge/Domain-Medical%20Imaging-red.svg)
 ![Status](https://img.shields.io/badge/Status-Clinical%20Validation%20Phase-success)
 
+
+> [!NOTE]
+> **Project Status:** This framework is currently in an **Active Development/Beta Phase**. 
+> While the current results are promising (96.88% Recall), the model is undergoing continuous refinement to improve precision and reduce false positives. It is not yet intended for final production use.
+
 ## 📌 Executive Summary & Clinical Impact
 This repository presents a high-fidelity **Deep Learning framework** engineered for the automated detection of Pneumonia from Chest X-Ray (CXR) images. In the high-stakes domain of medical imaging, standard accuracy is frequently a "statistical trap" due to significant class imbalances and domain shifts. 
 
