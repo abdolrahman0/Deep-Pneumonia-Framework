@@ -128,3 +128,27 @@ This version (v1.0) is a baseline model. To enhance clinical reliability, future
 * **Explainable AI (XAI):** Implementing Grad-CAM to highlight infected lung areas for better transparency.
 * **Architecture Upgrade:** Experimenting with ResNet-50 and Vision Transformers (ViT) to capture finer diagnostic details.
 * **Data Augmentation:** Using advanced techniques to handle different X-ray exposures and qualities from multi-source datasets.
+
+---
+
+## ⚙️ Technical Specifications
+For developers and researchers interested in the model architecture:
+
+* **Core Architecture:** ResNet-18
+* **Methodology:** Transfer Learning (Frozen Feature Extractor)
+* **Trainable Parameters:** 263,682
+* **Total Parameters:** ~11.2 Million
+* **Optimization:** AdamW Optimizer with Cosine Annealing
+* **Input Dimensions:** 224x224 (RGB)
+
+> **Insight:** By training only **263,682 parameters**, the model is highly efficient, preventing "overfitting" on small medical datasets while leveraging the deep visual knowledge of ResNet.
+
+
+## 🛠️ Tech Stack
+This project was developed using the following powerful AI tools and libraries:
+
+* **Deep Learning:** PyTorch & Torchvision (ResNet-18)
+* **Web Interface:** Gradio
+* **Deployment:** Hugging Face Spaces
+* **Data Processing:** Pandas & PyArrow (for Parquet handling)
+* **Imaging:** PIL (Pillow)
